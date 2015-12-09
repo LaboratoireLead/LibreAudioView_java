@@ -7,6 +7,7 @@ import android.hardware.Camera;
 import android.os.Build;
 import android.util.Log;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Created by thibautg on 23/10/15.
@@ -66,7 +67,7 @@ public class CustomCamera {
      * open camera
      */
     public void openCamera() {
-        mCamera = Camera.open();
+        mCamera = Camera.open(0);
         if (mCamera == null) {
             Log.e(TAG, "Can't open camera!");
         }
@@ -78,7 +79,14 @@ public class CustomCamera {
      */
     public void setupAcquisitionParameters() {
         Camera.Parameters params = mCamera.getParameters();
-        params.setPreviewSize(width, height);
+
+       /* List<Camera.Size> lSize = params.getSupportedPreviewSizes();
+        for (int i = 0; i < lSize.size(); i++) {
+            Log.i(TAG, "camera resolution "+lSize.get(i).width + " h " +lSize.get(i).height);
+        }*/
+
+        //params.setPreviewSize(width, height);
+        params.setPreviewSize(Globals.acquisitionFrameWidth, Globals.acquisitionFrameHeight);
         mCamera.setParameters(params);
     }
 

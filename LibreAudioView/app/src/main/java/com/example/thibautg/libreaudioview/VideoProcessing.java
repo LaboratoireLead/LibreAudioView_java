@@ -36,6 +36,8 @@ public class VideoProcessing {
 
     protected Mat mRgba = null;
     protected Mat mInputMat = null;
+    protected Mat mInputMat320240 = null;
+    protected Mat mInputGray320240 = null;
     protected Mat mOutputGrayMat = null;
     protected Mat mInputGray = null;
     private int width = Globals.outputFrameWidth;
@@ -51,7 +53,10 @@ public class VideoProcessing {
      * @param audioOutput
      */
     public VideoProcessing(AudioOutput audioOutput){
-        mInputMat = new Mat(height + height / 2, width, CvType.CV_8UC1);
+        mInputMat320240 = new Mat(Globals.acquisitionFrameHeight + Globals.acquisitionFrameHeight / 2, Globals.acquisitionFrameWidth, CvType.CV_8UC1);
+        mInputGray320240 =  new Mat(Globals.acquisitionFrameHeight, Globals.acquisitionFrameWidth, CvType.CV_8UC1);
+
+        mInputMat = new Mat(height +height / 2, width, CvType.CV_8UC1);
         mRgba = new Mat(height, width, CvType.CV_8U, new Scalar(4));
         mPreviousMat =  new Mat(height, width, CvType.CV_8UC1);
         mDiffMat2 =  new Mat(height, width, CvType.CV_8UC1);
@@ -87,8 +92,13 @@ public class VideoProcessing {
      * @param data
      */
     public void processFrame(byte[] data) {
-        mInputMat.put(0, 0, data);
-        mInputGray = mInputMat.submat(0, mInputMat.height() * 2 / 3, 0, mInputMat.width());
+        mInputMat320240.put(0, 0, data);
+
+        mInputGray320240 = mInputMat320240.submat(0, mInputMat320240.height() * 2 / 3, 0, mInputMat320240.width());
+        Imgproc.resize(mInputGray320240, mInputGray, new Size(160,120));
+
+        //mInputMat.put(0, 0, data);
+        //mInputGray = mInputMat.submat(0, mInputMat.height() * 2 / 3, 0, mInputMat.width());
         Imgproc.GaussianBlur(mInputGray, mInputGray, windowSize, 0.6, 0.6);
         Core.absdiff(mInputGray, mPreviousMat, mDiffMat2);
         mInputGray.copyTo(mPreviousMat);

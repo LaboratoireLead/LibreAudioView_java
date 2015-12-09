@@ -20,6 +20,9 @@ package com.example.thibautg.libreaudioview;
  */
 public class Globals {
 
+    public static int acquisitionFrameWidth = 320;
+    public static int acquisitionFrameHeight = 240;
+
     public static int outputFrameWidth = 160;
     public static int outputFrameHeight = 120;
 
