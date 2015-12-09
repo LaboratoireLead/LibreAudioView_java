@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/thibautg/system/SDK/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-5dcdfd15244b6c09c900fe2d5160616e3d0951ed.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/exploded-aar/LibreAudioView_test_openCv300/openCV300/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6c205be5e549543f05ba7067383dc4c5610da9a2">
+        <dex dex="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/pre-dexed/debug/classes-e08c8758bb418dd5970d5e5eac4d9af25b7c854c.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/pre-dexed/debug/classes-ea7927ed9f6e66bc873e1e3b8f6608fde4453ba9.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-65140fac99ec5dd06b43edabdaff5898da4ed5f0.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/pre-dexed/debug/classes-62dc2cb836dbb48865b7daa226ba4f58fc75396a.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/app/build/intermediates/pre-dexed/debug/classes-82d5fab7f57c8c7d3860b39cc37aca9200c4717b.jar" />
+    </item>
+
+</items>
