@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/openCV300/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/openCV300/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/thibautg/boulot/dev/AndroidStudio/projet/LibreAudioView/openCV300/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/thibautg/boulot/dev/AndroidStudio/projet/LibreAudioView/openCV300/src/debug/assets"/></dataSet></merger>

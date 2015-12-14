@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/thibautg/boulot/dev/AndroidStudio/Applis de Test/LibreAudioView_test_openCv300/openCV300/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+ * Original file: /home/thibautg/boulot/dev/AndroidStudio/projet/LibreAudioView/openCV300/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
  */
 package org.opencv.engine;
 /**
