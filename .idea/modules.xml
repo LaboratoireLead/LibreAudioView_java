@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LibreAudioViewGithub.iml" filepath="$PROJECT_DIR$/.idea/LibreAudioViewGithub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/23.0.1.iml" filepath="$PROJECT_DIR$/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/23.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/23.0.1.iml" filepath="$PROJECT_DIR$/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/23.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/manifests/full/debug/debug.iml" filepath="$PROJECT_DIR$/LibreAudioView/app/build/intermediates/manifests/full/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibreAudioView/openCV300/build/intermediates/bundles/debug/debug.iml" filepath="$PROJECT_DIR$/LibreAudioView/openCV300/build/intermediates/bundles/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibreAudioView/openCV300/build/intermediates/manifest/androidTest/debug/debug.iml" filepath="$PROJECT_DIR$/LibreAudioView/openCV300/build/intermediates/manifest/androidTest/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibreAudioView/app/src/test/test.iml" filepath="$PROJECT_DIR$/LibreAudioView/app/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/exploded-aar/LibreAudioView/openCV300/unspecified/unspecified.iml" filepath="$PROJECT_DIR$/LibreAudioView/app/build/intermediates/exploded-aar/LibreAudioView/openCV300/unspecified/unspecified.iml" />
     </modules>
   </component>
 </project>

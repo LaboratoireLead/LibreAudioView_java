@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/pre-dexed/debug/classes-fd96f09adcc4f8854aff5ec09e7231563aeeef56.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/pre-dexed/debug/classes-4611df8e2bf077ffcb09fc179ba2dd0c48beb52f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-5dcdfd15244b6c09c900fe2d5160616e3d0951ed.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/pre-dexed/debug/classes-74e1f56304707d940fb60c94acf2d5c3a2eb3f98.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/pre-dexed/debug/classes-954866f305f2c94051cdcb05c7bab61043b72f5b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LibreAudioView/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-42e28fb77617379deb05113f0ae187be23ec2ea7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
