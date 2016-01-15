@@ -32,6 +32,21 @@ public class MainActivity extends AppCompatActivity {
     private CameraView mCameraView = null;
     private CustomCamera mCustomCamera = null;
 
+    /*
+    *There are two ways to use the application: with OpenCV Manager or with static libraries opencv
+    *in the default case (OpenCV Static = true) no need to download openCvManager
+    *if you want to use OpenCV Manager, pass the variable to false
+    */
+    private boolean openCvStatic = true;// if "true" -> opencv with static library
+    //private boolean openCvStatic = false;// if "false" -> dowload opencvManager
+
+
+
+
+    /*static{
+        System.loadLibrary("opencv_java3");
+        Log.i("opencv", "loadLibrary");
+    }*/
     private BaseLoaderCallback mOpenCVCallBack = new BaseLoaderCallback(this) {
         //call openCv
         /**
@@ -39,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
          * @param status
          */
         @Override
+
         public void onManagerConnected(int status) {
             switch (status) {
                 case LoaderCallbackInterface.SUCCESS:
@@ -97,9 +113,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_0_0, this, mOpenCVCallBack)) {
-            Log.e(TAG, "Cannot connect to OpenCV Manager");
+        if (openCvStatic){
+            System.loadLibrary("opencv_java3");
+            AudioOutput audioOutput = startSoundStreaming();
+            startCamera(audioOutput);
+        }else if (!openCvStatic){
+            if (!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_0_0, this, mOpenCVCallBack)) {
+                Log.e(TAG, "Cannot connect to OpenCV Manager");
+            }
         }
+
+
+
     }
 
     /**

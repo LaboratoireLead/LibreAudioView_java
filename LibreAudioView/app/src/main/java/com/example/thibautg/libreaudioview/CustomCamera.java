@@ -73,7 +73,6 @@ public class CustomCamera {
         }
     }
 
-
     /**
      * acquisition parameters
      */
