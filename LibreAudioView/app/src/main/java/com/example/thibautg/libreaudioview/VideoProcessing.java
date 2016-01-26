@@ -92,6 +92,8 @@ public class VideoProcessing {
      * @param data
      */
     public void processFrame(byte[] data) {
+
+        int detectionThreshold = 50;
         mInputMat320240.put(0, 0, data);
 
         mInputGray320240 = mInputMat320240.submat(0, mInputMat320240.height() * 2 / 3, 0, mInputMat320240.width());
@@ -102,7 +104,7 @@ public class VideoProcessing {
         Imgproc.GaussianBlur(mInputGray, mInputGray, windowSize, 0.6, 0.6);
         Core.absdiff(mInputGray, mPreviousMat, mDiffMat2);
         mInputGray.copyTo(mPreviousMat);
-        Imgproc.threshold(mDiffMat2, mOutputGrayMat, 80, 255, 0);
+        Imgproc.threshold(mDiffMat2, mOutputGrayMat, detectionThreshold, 255, 0);
 
         if (mBoolFirstImage) {
             mOutputGrayMat.setTo(new Scalar(0));

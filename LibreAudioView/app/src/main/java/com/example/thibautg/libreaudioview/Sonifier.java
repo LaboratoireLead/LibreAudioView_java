@@ -32,7 +32,7 @@ public class Sonifier {
     protected byte mBuff[] = null;
     protected short generatedShortSnd[] = null;
     protected float generatedFloatSnd[] = null;
-    protected float mAmplitude = 10;
+    protected float mAmplitude = 50;
     protected float foatPI = (float)Math.PI;
     protected float previousGeneratedFloatSnd[] = null;
     protected float listSound[][] = null;
@@ -136,7 +136,8 @@ public class Sonifier {
         int totalNbSimplification = 10000000;
         int maxNbUsedSimplification = 10000000;
 
-        float factorCompression = 500;
+        //float factorCompression = 500;
+        float factorCompression = 800;
         float nbKeptHotPixel = factorCompression*(1-factorCompression/((float)nbHotPix+factorCompression));
         float ratio = (float) nbKeptHotPixel/ (float)nbHotPix;
 

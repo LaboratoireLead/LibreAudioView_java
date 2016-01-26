@@ -2,6 +2,48 @@
 <items version="2" >
 
     <item
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-c8e6b8dca3958a0c1f1e2cb37663fe1fef8a8253.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-7fb51f995f7449c9d4bab37b9ec93244247bfc43.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-de2a6d7e49591890ac89bf2b1645a8b031e62fa4.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-4f721c9caf21859940609f7a4b01465072d65113.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-762d3f06c3dafb4994ce23471d1686dfb20cc633.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-9de278e67ddaf716089bc883779d51814bbf3f7c.jar" />
+    </item>
+    <item
         jar="/home/thibautg/system/SDK/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -16,25 +58,18 @@
         <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-55b20d9609eaf0f96ec9c121778d333ee1d89031.jar" />
     </item>
     <item
-        jar="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/exploded-aar/LibreAudioView/openCV300/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c246393e09b51e01981f29a08934163cb11a567e">
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-4d58ced01557887170d3b2e1946f8404b358a225.jar" />
+    </item>
+    <item
+        jar="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-de2a6d7e49591890ac89bf2b1645a8b031e62fa4.jar" />
-    </item>
-    <item
-        jar="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-c8e6b8dca3958a0c1f1e2cb37663fe1fef8a8253.jar" />
-    </item>
-    <item
-        jar="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-7fb51f995f7449c9d4bab37b9ec93244247bfc43.jar" />
+        <dex dex="/home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/app/build/intermediates/pre-dexed/release/classes-582d64539b77f0759401f08faf7cc6b69895c150.jar" />
     </item>
     <item
         jar="/home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"

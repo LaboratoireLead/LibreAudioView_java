@@ -34,9 +34,10 @@ public class MainActivity extends AppCompatActivity {
 
     /*
     *There are two ways to use the application: with OpenCV Manager or with static libraries opencv
-    *in the default case (OpenCV Static = true) no need to download openCvManager
+    *in the default case (OpenCVStatic = true) no need to download openCvManager
     *if you want to use OpenCV Manager, pass the variable to false
     */
+
     private boolean openCvStatic = true;// if "true" -> opencv with static library
     //private boolean openCvStatic = false;// if "false" -> dowload opencvManager
 

@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/thibautg/Desktop/LibreAudioViewGithub Test/LibreAudioView/openCV300/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+ * Original file: /home/thibautg/Desktop/LibreAudioViewGithub/LibreAudioView/openCV300/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
  */
 package org.opencv.engine;
 /**
